@@ -1,0 +1,3 @@
+﻿  test.c
+E:\C\C-code\test_2_7\test.c(7,20): warning C4013: “countBitOne”未定义；假设外部返回 int
+  test_2_7.vcxproj -> E:\C\C-code\test_2_7\Debug\test_2_7.exe
