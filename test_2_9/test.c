@@ -3,15 +3,44 @@
 #include<assert.h>
 #include<windows.h>
 
-int  main()
+int main()
 {
-	unsigned int i = 0;
-	for (i = 0; i <= 255; i++)
-	{
-		printf("helloworld\n");	
-	}
+	float f = 5.5;
+	//5.5
+	//101.1
+	//(-1)^0*1.011*2^2
+	//S=0,M=1.011,E=2
+	//0 10000001 01100000000000000000000
+	//0x40b00000
 	return 0;
 }
+
+//int main()
+//{
+//	int n = 9;
+//	float* pFloat = (float*)&n;
+//	printf("%d\n", n);
+//	printf("%f\n", *pFloat);
+//	*pFloat = 9.0;
+//	printf("%d\n", n);
+//	printf("%f\n", *pFloat);
+//	return 0;
+//}
+//float保存：（-1）^S*M*2^E
+//9.0=1001.0=-1^0*1.001*2^3     S=0,M=1.001,E=3
+//32位浮点数，最高位为S，8位为E，23位为M
+//64位浮点数，最高位为S,11位为E，52位为M
+//E在存储时要+127或1023
+
+//int  main()
+//{
+//	unsigned int i = 0;
+//	for (i = 0; i <= 255; i++)
+//	{
+//		printf("helloworld\n");	
+//	}
+//	return 0;
+//}
 //int main()
 //{
 //	unsigned int i = 0;
