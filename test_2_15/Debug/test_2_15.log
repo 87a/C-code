@@ -1,0 +1,6 @@
+﻿  test.c
+E:\C\C-code\test_2_15\test.c(11,92): warning C4273: “qsort”: dll 链接不一致
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_search.h(56,23): message : 参见“qsort”的前一个定义
+E:\C\C-code\test_2_15\test.c(33,15): warning C4013: “strcmp”未定义；假设外部返回 int
+E:\C\C-code\test_2_15\test.c(23): warning C4715: “cmp_float”: 不是所有的控件路径都返回值
+  test_2_15.vcxproj -> E:\C\C-code\test_2_15\Debug\test_2_15.exe
