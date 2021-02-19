@@ -1,0 +1,2 @@
+E:\C\C-code\test_2_19\Debug\test_2_19.exe
+E:\C\C-code\test_2_19\Debug\test_2_19.pdb
